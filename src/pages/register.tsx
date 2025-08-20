@@ -61,7 +61,7 @@ const RegisterPage = () => {
               label="Full Name"
               value={form.fullName}
               onChange={handleInputChange}
-              placeholder="Enter your full name"
+              placeholder="Marry Doe"
               required
             />
             <Input
@@ -71,7 +71,7 @@ const RegisterPage = () => {
               label="Phone Number"
               value={form.phone}
               onChange={handleInputChange}
-              placeholder="Enter your phone number"
+              placeholder="Marry Doe"
               required
             />
             <Input
@@ -81,7 +81,7 @@ const RegisterPage = () => {
               label="Email Address"
               value={form.email}
               onChange={handleInputChange}
-              placeholder="Enter your email"
+              placeholder="Marry Doe"
               required
             />
             <Input
@@ -91,7 +91,7 @@ const RegisterPage = () => {
               label="Password"
               value={form.password}
               onChange={handleInputChange}
-              placeholder="Enter your password"
+              placeholder="Marry Doe"
               required
             />
             <Input
@@ -101,7 +101,7 @@ const RegisterPage = () => {
               label="Company Name"
               value={form.company}
               onChange={handleInputChange}
-              placeholder="Enter your company name (optional)"
+              placeholder="Marry Doe"
             />
             <div className="flex flex-col gap-y-3.5">
               <p className="text-sm leading-none font-semibold">Are you an Agency?</p>
